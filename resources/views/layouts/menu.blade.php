@@ -65,9 +65,7 @@
                                     <li><a class="dropdown-item" href="{{ url('/user/profile') }}">Configurações e Privacidade</a></li>
                                     <li><a class="dropdown-item" href="#">Meu Plano</a></li>
                                     <li><a class="dropdown-item" href="#">Ajuda e Suporte</a></li>
-                                    <li> <x-dropdown-link href="{{ route('logout') }}" @click.prevent="$root.submit();">
-                                    {{ __('Log Out') }}
-                                </x-dropdown-link></li>
+                                   
                                 </ul>
                             </div>
                             @else
