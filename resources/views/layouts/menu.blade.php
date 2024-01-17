@@ -61,10 +61,13 @@
                                     <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="{{ url('/dashboard') }}" >Dashboard</a></li>
-                                    <li><a class="dropdown-item" href="#">Configurações e Privacidade</a></li>
+                                    <li><a class="dropdown-item" href="{{ url('/dashboard') }}" >Meu Perfil</a></li>
+                                    <li><a class="dropdown-item" href="{{ url('/user/profile') }}">Configurações e Privacidade</a></li>
                                     <li><a class="dropdown-item" href="#">Meu Plano</a></li>
                                     <li><a class="dropdown-item" href="#">Ajuda e Suporte</a></li>
+                                    <li> <x-dropdown-link href="{{ route('logout') }}" @click.prevent="$root.submit();">
+                                    {{ __('Log Out') }}
+                                </x-dropdown-link></li>
                                 </ul>
                             </div>
                             @else
