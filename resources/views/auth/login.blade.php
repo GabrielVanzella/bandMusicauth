@@ -46,7 +46,7 @@
 
             <div class="row">
                 <div class="col-auto">
-                    <p class="conta">Não tem uma conta? <a href="">Cadastre-se </a></p>
+                    <p class="conta">Não tem uma conta? <a href="{{ route('register') }}">Cadastre-se </a></p>
                 </div>
                 <div class="col">
                     <button type="submit" id="ccid_form_sub" class=" btn btn-outline-dark">Login</button>
