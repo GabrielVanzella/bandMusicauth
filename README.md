@@ -40,6 +40,6 @@ Categoria
 3 - Contratante 
 4 - Industria
 
-Cadastro tipo 1
+Cadastro tipo 1 ....
 
 
