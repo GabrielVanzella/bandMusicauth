@@ -34,16 +34,6 @@
                             </li>
                         </ul>
 
-                        <form class="pesquisar" role="search">
-                            <div class="input-group" id="pesquisar">
-                                <input type="text" class="form-control  btn-outline-secondary" placeholder="" aria-label="" aria-describedby="">
-                                <span class="input-group-text " id="basic-addon2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                                    </svg>
-                                </span>
-                            </div>
-                        </form>
 
                         <button type="button" class="btn btn-outline-secondary">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
@@ -62,10 +52,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="{{ url('/dashboard') }}" >Meu Perfil</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/user/profile') }}">Configurações e Privacidade</a></li>
-                                    <li><a class="dropdown-item" href="#">Meu Plano</a></li>
-                                    <li><a class="dropdown-item" href="#">Ajuda e Suporte</a></li>
-                                   
+                                    <li><a class="dropdown-item" href="{{ url('/user/profile') }}">Configurações</a></li>                                
                                 </ul>
                             </div>
                             @else

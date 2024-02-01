@@ -150,6 +150,7 @@
             </x-responsive-nav-link>
         </div>
 
+     
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200">
             <div class="flex items-center px-4">
@@ -164,6 +165,7 @@
                     <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
                 </div>
             </div>
+
 
             <div class="mt-3 space-y-1">
                 <!-- Account Management -->
@@ -219,6 +221,8 @@
                 @endif
                 @endif
             </div>
+          
+
         </div>
     </div>
 </nav>
