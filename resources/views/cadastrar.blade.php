@@ -7,11 +7,11 @@
 @section('content')
 
 <div class="bg-login">
-    
-<a class="navbar-brand" href="/"><img src="/img/logo_branco.png" alt=""></a>
+
+    <a class="navbar-brand" href="/"><img src="/img/logo_branco.png" alt=""></a>
 
     <form name="formCadastrar" id="formCadastrar" method="post" action="" class="form-login">
-        @csrf 
+        @csrf
         <h1 class="text-center">Inscrever-se</h1>
         <p class="conta">já tem uma conta ? <a href="/login">Faça login aqui </a></p>
         <input type="text" name="name" class="form-control" placeholder="Primeiro nome">

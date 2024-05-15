@@ -16,6 +16,12 @@
                         {{ __('Meu Perfil') }}
                     </x-nav-link>
                 </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link href="{{ route('profile.show') }}" :active="request()->routeIs('profile')">
+                        {{ __('Configurações') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ms-6">
@@ -149,6 +155,8 @@
                 {{ __('Meu Perfil') }}
             </x-responsive-nav-link>
         </div>
+
+     
 
      
         <!-- Responsive Settings Options -->
